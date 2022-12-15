@@ -36,3 +36,376 @@
     transform: rotate(360deg);
   }
 }
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Terms*/
+.terms{
+  background-image: linear-gradient(to right, #790252 , #790252);
+  padding: 2px;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+.termsContent{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.termsContent:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+/*Navbar*/
+.brand-logo{
+  margin: 0px 20px;
+  height: 44px;
+  transition: 0.3s;
+}
+.brand-logo:hover{
+  margin: 0px 30px;
+}
+.navlink{
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-item{
+  padding: 10px;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+.navbar-toggler{
+  color: white;
+}
+.navbar-nav{
+  padding: 10px;
+}
+.navlink:hover{
+  color: #790252;
+}
+.nav-item:hover{
+  color: #790252;
+  border-bottom: 4px solid #790252;
+}
+.navbar-toggler{
+  background-color: #790252;
+}
+.navbar-toggler-icon{
+  color: #790252;
+}
+ul .active{
+  color: #790252;
+  border-bottom: 4px solid #790252;
+}
+.isinavbar{
+  margin: -10px 0px;
+}
+
+/*Carousel*/
+.carousel{
+  margin-top: 70px;
+}
+.carousel .carousel-indicators button{
+  background-color: white;
+  height: 0.4vw;
+  width: 4vw;
+}
+.carousel-caption h1{
+  text-align: left;
+  font-size: 5.5vw;
+  font-weight: 600;
+}
+.carousel-caption h2{
+  text-align: left;
+  font-size: 2.5vw;
+}
+.carousel-caption a.quick{
+  background-color: #790252;
+  color: white;
+  padding: 1.5vw;
+  margin: 1vw;
+  width: 15vw;
+  font-size: 1vw;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.carousel-caption a.quick:hover{
+  background-color: white;
+  color: #790252;
+}
+.carousel-caption a.scroll{
+  color: white;
+}
+.carousel-caption a.scroll:hover{
+  color: white;
+  height: 1.8vw;
+  font-size: 1.5vw;
+}
+.scrollup{
+  margin: 5px 10px;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  transition: 0.2s;
+}
+.scrollup:hover{
+  height: 2.2vw;
+  font-size: 1.8vw;
+}
+.carousel-item img{
+  opacity: 1;
+}
+
+/*Util*/
+.util a{
+  color: #790252;
+  margin: 0px 20px 0px 0px;
+}
+.util .fill{
+  background-color: #790252;
+  color: white;
+  padding: 20px 20px;
+  margin: 0px -12px;
+  transition: 0.3s;
+  border: none;
+}
+.util .fill:hover{
+  border-left: 5px solid #790252;
+  background-color: white;
+  color: #790252;
+}
+
+/*Sub*/
+.sub{
+  padding: 50px;
+  padding-top: 9vw;
+  padding-bottom: 4vw;
+  margin-top: 20px
+}
+.sub .logo{
+  color: white;
+  background-color: #790252;
+  font-size: 60px;
+  padding: 10px;
+}
+.sub h2{
+  color: #790252;
+}
+.sub h3{
+  padding: 20px;
+  color: #999999;
+}
+.sub h4{
+  margin: 30px;
+}
+.sub h5{
+  padding: 20px 0px;
+}
+.sub p{
+  color: #999999;
+}
+.grey{
+  background-color: rgba(240, 240, 240, 1);
+}
+.sub .col{
+  margin-top: 20px;
+}
+.sub a.scroll{
+  color: #999999;
+  margin-top: 4vw;
+}
+#about{
+  padding: 7vw;
+  padding-top: 9vw;
+  padding-bottom: 4vw;
+}
+#about img{
+  width: calc(380px + 1vw);
+  padding-top: 1vw;
+}
+
+/*Pricing*/
+.pricing{
+  margin-top: 50px;
+  padding: 50px;
+}
+.pricing .kotak{
+  border: 3px solid #790252;
+}
+.pricing #shoe{
+  padding: 100px 0px;
+}
+.pricing h2{
+  padding: 20px;
+  color: #790252;
+  font-weight: 600;
+}
+.pricing h3{
+  color: #999999;
+}
+.pricing i{
+  color: #790252;
+  font-size: 200px;
+}
+.pricing #toShoe{
+  color: #000;
+  transition: 0.3s;
+}
+.pricing #toShoe:hover{
+  font-size: 30px;
+}
+.pricing #toShoe i{
+  font-size: 30px;
+  color: #000;
+}
+.pricing p{
+  padding: 0px 20px;
+}
+.pricing .reqCloth{
+  background-color: #790252;
+  border: 3px solid white;
+  transition: 0.3s;
+}
+.pricing .reqCloth:hover{
+  color: #790252;
+  background-color: white;
+  border: 3px solid #790252;
+}
+table{
+  margin: -10px 20px 10px 20px;
+}
+.pricing tr{
+  border-bottom: 2px dashed #999999;
+}
+th{
+  padding: 10px;
+}
+td{
+  padding: 10px;
+}
+td .quantity{
+  width: 50px;
+}
+td .type{
+  height: 32px;
+}
+td img{
+  height: 30px;
+}
+
+/*Request*/
+#request_page{
+  padding-top: 100px;
+}
+.btn-request{
+  background-color: #790252;
+  color: white;
+}
+.btn-request:hover{
+  color: #790252;
+  border: 3px solid #790252;
+}
+.request-active{
+  background-color: white;
+  color: #790252;
+  border: 3px solid #790252;
+}
+#request_page .jenis{
+  border: 3px solid #790252;
+  border-radius: 7px;
+}
+#request_page tr{
+  border-bottom: 2px dashed #999999;
+}
+#detailRequests tr{
+  border-bottom: 2px dashed #999999;
+}
+
+/*Profile*/
+#profile{
+  padding-top: 100px;
+  min-height: 700px;
+}
+#profile h4{
+  color: #790252;
+}
+#detailAddress button.alamat, #btn-admin{
+  background-color: #790252;
+  color: white;
+}
+.sideActive{
+  color: #790252;
+  font-size: 25px;
+}
+.side button{
+  transition: 0.3s;
+}
+.side button:hover{
+  color: #790252;
+  font-size: 25px;
+}
+
+/*Admin*/
+#admin h4{
+  color: #790252;
+}
+#admin tr{
+  border-bottom: 2px dashed #999999;
+}
+#admin td{
+  padding: 5px;
+}
+.icon-stat{
+  font-size: 10px;
+}
+
+#detailOrders tr{
+  border-bottom: 2px dashed #999999;
+}
+
+/*Login*/
+#login{
+  padding-top: 40px;
+}
+#login form button{
+  background-color: #790252;
+}
+#alertobj{
+  background-color: white;
+  color: white;
+  transition: 0.3s;
+}
+
+/*slideanim*/
+.slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
