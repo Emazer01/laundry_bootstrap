@@ -20,19 +20,21 @@ export const Register = () => {
             })
             .then(function (response) {
               if (response.data=='Data Berhasil Ditambahkan ke Database') {
-                alert(response.data)
                 navigate('../login')
               } else {
-                alert('Register Gagal \n'.concat(response.data)) 
+                document.getElementById("alertobj").style.backgroundColor = "#790252" 
               }
             })
             .catch(function (error) {
               console.log(error);
-              alert('Register Gagal / Data Kurang Lengkap')
+              document.getElementById("alertobj").style.backgroundColor = "#790252"
             });
           } else {
-            alert('Register Gagal / Data Kurang Lengkap')
+            document.getElementById("alertobj").style.backgroundColor = "#790252"
           }
+    }
+    const fresh = () => {
+        document.getElementById("alertobj").style.backgroundColor = "white"
     }
 
     return (
@@ -58,20 +60,25 @@ export const Register = () => {
                 </nav>
             </header>
             <main className="mt-xl-5" id="login">
+                <div className="container col-md-4">
+                    <div class='alert mt-5' id='alertobj'>
+                        <strong>Register Failed!</strong> Account Doesn't Created.
+                    </div>
+                </div>
                 <div class="container mt-3 col-md-4">
                     <h2 className="mt-5">Sign Up</h2>
                     <form onSubmit={handleSubmit} className="dark mb-3">
                         <div class="mb-3 mt-3">
                             <label for="username">Username:</label>
-                            <input type="text" class="form-control" id="username" placeholder="Enter username" name="username"/>
+                            <input type="text" onChange={()=>{fresh()}} class="form-control" id="username" placeholder="Enter username" name="username"/>
                         </div>
                         <div class="mb-3">
                             <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"/>
+                            <input type="email" onChange={()=>{fresh()}} class="form-control" id="email" placeholder="Enter email" name="email"/>
                         </div>
                         <div class="mb-3">
                             <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"/>
+                            <input type="password" onChange={()=>{fresh()}} class="form-control" id="pwd" placeholder="Enter password" name="pswd"/>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
