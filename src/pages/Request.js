@@ -4,6 +4,7 @@ import brand from "../image/UnBI.png"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import shoe from "../image/item/shoe.png"
+import { Footer } from '../component/Footer';
 
 export const Request = () => {
     const [alamatstate, setAlamatstate] = React.useState()
@@ -355,6 +356,7 @@ export const Request = () => {
                     </div>
                 </div>
             </main>
+            <Footer />
         </div>
     )
 }

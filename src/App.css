@@ -310,6 +310,7 @@ td img{
 /*Request*/
 #request_page{
   padding-top: 100px;
+  min-height: 500px;
 }
 .btn-request{
   background-color: #790252;
@@ -360,6 +361,9 @@ td img{
 }
 
 /*Admin*/
+#admin{
+  min-height: 700px;
+}
 #admin h4{
   color: #790252;
 }
@@ -388,6 +392,13 @@ td img{
   background-color: white;
   color: white;
   transition: 0.3s;
+}
+
+#not{
+  background-image: linear-gradient(to bottom, #ede5e2 , #e7e2e0);
+}
+#nf{
+  width: 100%;
 }
 
 /*slideanim*/

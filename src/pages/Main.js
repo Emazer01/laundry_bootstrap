@@ -26,7 +26,7 @@ export const Main = () => {
                                     <a class="navlink" href="/pricing">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navlink" href="#contact">Contact</a>
+                                    <a class="navlink" href="/#contact">Contact</a>
                                 </li>
                             </ul>
                             <Util />
@@ -79,19 +79,25 @@ export const Main = () => {
                             <table>
                                 <tr>
                                     <th>Instagram</th>
-                                    <td><a className="btn btn-contact container-fluid" href="https://www.instagram.com/gary_ferdinand/">@gary_ferdinand</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://www.instagram.com/gary_ferdinand/">@gary_ferdinand</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://www.instagram.com/prasashtiazz__/">@prasashtiazz__</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://www.instagram.com/adzs72/">@adzs72</a></td>
                                 </tr>
                                 <tr>
                                     <th>E-mail</th>
-                                    <td><a className="btn btn-contact container-fluid" href="https://garyferdinand15@gmail.com">garyferdinand15@gmail.com</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://garyferdinand15@gmail.com">garyferdinand15@gmail.com</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://prasashtialyaanjani@gmail.com">prasashtialyaanjani@gmail.com</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://ayumasqonita@gmail.com">ayumasqonita@gmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <th>WhatsApp</th>
-                                    <td><a className="btn btn-contact container-fluid" href="https://wa.me/0881026704385">0881026704385</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://wa.me/0881026704385">0881026704385</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://wa.me/089658719634">089658719634</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://wa.me/ 081211944168"> 081211944168</a></td>
                                 </tr>
                                 <tr>
                                     <th>Address</th>
-                                    <td><a className="btn btn-contact container-fluid" href="https://goo.gl/maps/N63jWvt94SbHBee3A">Location</a></td>
+                                    <td><a className="btn btn-contact container-fluid p-2" href="https://goo.gl/maps/N63jWvt94SbHBee3A">Location</a></td>
                                 </tr>
                             </table>
                         </div>

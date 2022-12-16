@@ -62,7 +62,7 @@ export const Pricing = () => {
                                     <a class="navlink" href="#">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="navlink" href="#contact">Contact</a>
+                                    <a class="navlink" href="/#contact">Contact</a>
                                 </li>
                             </ul>
                             <Util />

@@ -3,6 +3,7 @@ import { Util } from "../component/Util"
 import brand from "../image/UnBI.png"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { Footer } from '../component/Footer';
 
 export const Admin = () => {
     const navigate = useNavigate()
@@ -646,6 +647,7 @@ export const Admin = () => {
                     <div className='col-md-1'></div>
                 </div>
             </main>
+            <Footer />
         </div>
     )
 }

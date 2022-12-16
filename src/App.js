@@ -8,6 +8,7 @@ import { Register } from './pages/Register';
 import { Profile } from './pages/Profile';
 import { Request } from './pages/Request';
 import { Admin } from './pages/Admin';
+import { NotFound } from './pages/404';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/request" element={<Request />}></Route>
         <Route path="/admin" element={<Admin />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
   );
