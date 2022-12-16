@@ -2,7 +2,6 @@ import * as React from 'react';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import SettingsIcon from '@mui/icons-material/Settings';
-import { useNavigate } from 'react-router-dom';
 
 export const Util = () => {
     const userUtil = localStorage.getItem("user")

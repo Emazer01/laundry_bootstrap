@@ -3,7 +3,6 @@ import { Util } from "../component/Util"
 import brand from "../image/UnBI.png"
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import shoe from "../image/item/shoe.png"
 import { Footer } from '../component/Footer';
 
 export const Request = () => {

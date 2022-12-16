@@ -42,23 +42,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/*Terms*/
-.terms{
-  background-image: linear-gradient(to right, #790252 , #790252);
-  padding: 2px;
-  font-weight: 400;
-  font-size: 0.8em;
-}
-.termsContent{
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-}
-.termsContent:hover{
-  color: white;
-  text-decoration: underline;
-}
-
 /*Navbar*/
 .brand-logo{
   margin: 0px 20px;

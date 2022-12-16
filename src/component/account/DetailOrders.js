@@ -3,7 +3,6 @@ import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export const DetailOrders = () => {
-    const navigate = useNavigate()
     const [orderstate, setOrderstate] = React.useState({
         0: {
             order_id: 4,
