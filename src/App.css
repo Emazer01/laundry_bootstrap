@@ -297,6 +297,16 @@ td img{
   height: 30px;
 }
 
+/*Contact*/
+.btn-contact{
+  background-color: #790252;
+  color: white;
+  border: 3px solid white;
+}
+.btn-contact:hover{
+  border: 3px solid #790252;
+}
+
 /*Request*/
 #request_page{
   padding-top: 100px;

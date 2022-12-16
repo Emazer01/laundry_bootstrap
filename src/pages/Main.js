@@ -6,13 +6,13 @@ import aboutimg from "../image/about.jpg"
 import { Footer } from "../component/Footer"
 
 export const Main = () => {
-    return(
+    return (
         <div>
             <header>
                 <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-white border-bottom">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="/">
-                            <img src={brand} alt="Avatar Logo" className="brand-logo"/>
+                            <img src={brand} alt="Avatar Logo" className="brand-logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
@@ -68,10 +68,35 @@ export const Main = () => {
                     </div>
                 </div>
                 <div id="contact" className="sub">
-                    <h2 className="text-center">Contact</h2>
-                </div>
-                <div id="" className="sub">
-                    <h2 className="text-center"></h2>
+                    <div className="row">
+                        <div className="col-md-1"></div>
+                        <h2 className="col-md-6">Contact</h2>
+                    </div><br/>
+                    <div className="row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-6">
+                            <h5 className="text-muted">Thank you for considering our laundry services. We would love to hear from you and assist with any questions or concerns you may have.</h5>
+                            <table>
+                                <tr>
+                                    <th>Instagram</th>
+                                    <td><a className="btn btn-contact container-fluid" href="https://www.instagram.com/gary_ferdinand/">@gary_ferdinand</a></td>
+                                </tr>
+                                <tr>
+                                    <th>E-mail</th>
+                                    <td><a className="btn btn-contact container-fluid" href="https://garyferdinand15@gmail.com">garyferdinand15@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <th>WhatsApp</th>
+                                    <td><a className="btn btn-contact container-fluid" href="https://wa.me/0881026704385">0881026704385</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Address</th>
+                                    <td><a className="btn btn-contact container-fluid" href="https://goo.gl/maps/N63jWvt94SbHBee3A">Location</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
                 </div>
             </main>
             <Footer />

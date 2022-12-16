@@ -17,7 +17,7 @@ export const Carousel = () => {
                         <h1 id="jum1">Fresh, Clean, Enjoy</h1>
                         <h2>High Quality laundry service that works for your convenience.</h2>
                         <div className="row">
-                            <a className='text-decoration-none rounded-pill quick' href='/' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Explore Wide Variety of Package">
+                            <a className='text-decoration-none rounded-pill quick' href='/pricing' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Explore Wide Variety of Package">
                                 <span className='m-auto'>Explore Service</span>   
                             </a>
                         </div>
@@ -34,7 +34,7 @@ export const Carousel = () => {
                         <h1>Dont waste your time</h1>
                         <h2>We offer pick up and deliver from your home or office. Just sitback and relax</h2>
                         <div className="row">
-                            <a className='text-decoration-none rounded-pill quick' href='/' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Make Pickup Request">
+                            <a className='text-decoration-none rounded-pill quick' href='/request' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Make Pickup Request">
                                 <span className='m-auto'>Request Now</span>   
                             </a>
                         </div>
