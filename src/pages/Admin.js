@@ -231,6 +231,14 @@ export const Admin = () => {
     const approve = (event) => {
         try {
             var reqA
+            const a = { 'Regular Cloth':0,
+                        'Ironing Cloth':2,
+                        'Express Cloth':5,
+                        'Full Package Cloth':7,
+                        'Regular Shoe':0,
+                        'Deep Clean Shoe':5,
+                        'White Shoe':10,
+                    }
             for (let index = 0; index < requeststate.length; index++) {
                 if (requeststate[index].req_id == event.srcElement.id.slice(11)) {
                     reqA = requeststate[index]
@@ -246,7 +254,7 @@ export const Admin = () => {
             document.getElementById('qty').value = reqA['req_unit']
             document.getElementById('satuan').innerHTML = satuan
             document.getElementById('type').innerHTML = reqA['mode_label']
-            document.getElementById('plus').innerHTML = `+${reqA['plus_price']}k`
+            document.getElementById('plus').innerHTML = `+${a[reqA['mode_label']]}k`
             document.getElementById('notes').innerHTML = reqA['req_notes']
             document.getElementById('cost').innerHTML = reqA['req_est_cost']
             document.getElementById('req_id_hidden').innerHTML = reqA['req_id']
@@ -513,7 +521,7 @@ export const Admin = () => {
                 await sleep(2000);
                 document.getElementById('alertCsalah').classList.add('d-none')
             });
-
+        
         await axios.post(`${process.env.REACT_APP_BACKEND_URL}/deleterequest`, {
             token: token,
             req_id: req_id

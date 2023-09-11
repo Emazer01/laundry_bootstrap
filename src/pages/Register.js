@@ -62,11 +62,11 @@ export const Register = () => {
             <main className="mt-xl-5" id="login">
                 <div className="container col-md-4">
                     <div class='alert mt-5' id='alertobj'>
-                        <strong>Register Failed!</strong> Account Doesn't Created.
+                        <strong>Register Failed!</strong> Account Doesn't Created. Can't use that username/email/password
                     </div>
                 </div>
                 <div class="container mt-3 col-md-4">
-                    <h2 className="mt-5">Sign Up</h2>
+                    <h2>Sign Up</h2>
                     <form onSubmit={handleSubmit} className="dark mb-3">
                         <div class="mb-3 mt-3">
                             <label for="username">Username:</label>

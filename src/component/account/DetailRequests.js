@@ -15,6 +15,7 @@ export const DetailRequests = () => {
             .then(async function (response) {
                 if (response.status == 200) {
                     const requests = response.data
+                    console.log(requests)
                     setRequeststate(requests)
                     var list = `<tr>
                                 <th>Req ID</th>

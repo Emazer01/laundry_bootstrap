@@ -65,7 +65,7 @@ export const DetailOrders = () => {
                             </tr>`
                     }
                     if (orders.length < 1) {
-                        list += `<p class='text-muted'>There aren't any Requests</p>`
+                        list += `<p class='text-muted'>There aren't any Orders</p>`
                     }
                     document.getElementById("orderList").innerHTML = list
 
